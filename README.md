@@ -28,7 +28,7 @@ Then find and replace the package name (`Eleventy-Starter`) and author name (`Pa
 
 ## Documentation
 
-[Project documentation][docs] files are in the `_docs` directory.
+Project documentation files are in the `_docs` directory.
 
 ## Contributing
 
@@ -37,6 +37,5 @@ If you'd like to contribute, please read the [Code of Conduct][code-of-conduct] 
 [license]: https://firstdonoharm.dev/
 [node-download]: https://nodejs.org/en/download/
 [pkg]: package.json
-[docs]: https://docs.newprojectstarterkit.com/
 [code-of-conduct]: blob/master/CODE_OF_CONDUCT.md
 [contributing]: blob/master/CONTRIBUTING.md
