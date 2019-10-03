@@ -1,0 +1,34 @@
+{
+  "name": "Eleventy-Starter",
+  "description": "Fork this repository to start a new project with Eleventy, configured with pages, articles, projects, testimonials, and a JSON API. Includes prewritten `_layouts` and `_includes` markup. Bring your own `_assets` and build pipeline.",
+  "keywords": [
+    "eleventy",
+    "eleventy-starter"
+  ],
+  "version": "1.0.0",
+  "license": "Hippocratic License v1.0",
+  "author": {
+    "name": "Paul Shryock",
+    "email": "paul@pshry.com",
+    "url": "https://pshry.com/"
+  },
+  "homepage": "https://github.com/paulshryock/Eleventy-Starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulshryock/Eleventy-Starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulshryock/Eleventy-Starter/issues"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "NODE_ENV='production' npx eleventy",
+    "develop": "NODE_ENV='development' npx eleventy",
+    "watch": "NODE_ENV='development' npx eleventy --watch",
+    "serve": "NODE_ENV='development' npx eleventy --serve",
+    "add:content": "node ./_scripts/addContentType.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
