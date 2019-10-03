@@ -1,6 +1,6 @@
 # Eleventy Starter
 
-Fork this repository to start a new project with Eleventy, configured with pages, articles, projects, testimonials, and a JSON API. Includes prewritten `_layouts` and `_includes` markup. Bring your own `_assets` and build pipeline.
+Fork this repository to start a new project with Eleventy, configured with pages, articles, projects, testimonials, and a JSON API. Includes prewritten `_layouts` and `_includes` markup, and an npm script to add new content types. Bring your own `_assets` and build pipeline.
 
 This is an open source project which uses the [The Hippocratic License][license].
 
