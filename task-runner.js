@@ -1,8 +1,7 @@
 const Eleventy = require('@11ty/eleventy')
+const ssg = new Eleventy()
 
 async function buildHtml (cb) {
-  const ssg = new Eleventy()
-
   await ssg.init()
   await ssg.write()
 
