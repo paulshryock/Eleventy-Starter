@@ -22,8 +22,8 @@
   },
   "scripts": {
     "start": "npm run build",
-    "build": "NODE_ENV='production' npx eleventy",
-    "develop": "NODE_ENV='development' npx eleventy",
+    "build": "NODE_ENV='production' node ./task-runner.js",
+    "develop": "NODE_ENV='development' node ./task-runner.js",
     "watch": "NODE_ENV='development' npx eleventy --watch",
     "serve": "NODE_ENV='development' npx eleventy --serve",
     "add:content": "node ./_scripts/addContentType.js"
